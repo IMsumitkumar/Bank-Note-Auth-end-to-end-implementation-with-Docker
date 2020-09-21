@@ -20,7 +20,7 @@ The pickle module implements a fundamental, but powerful algorithm for serializi
 I have used flask to create a Web API
 
 ##### Let's dockerize our machine learning Model as REST API using Flask :
-1. Create Base image : Dockerfile 
+1. Create Dockerfile 
     ```
     FROM continuumio/anaconda3:4.4.0     # Creating base image which is created by docker hub
     COPY . /usr/app                      # Cpoying the working directory in root user directory
@@ -64,7 +64,7 @@ I have used flask to create a Web API
     ![UsingDocker](docker_NoteAuth.png)
     
     
-### Deploying uSing Streamlit 
+### Deploying using Streamlit 
 
 first of all You have to install streamlit in you environment using below command
 ```
