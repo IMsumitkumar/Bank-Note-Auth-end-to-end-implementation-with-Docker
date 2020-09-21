@@ -57,10 +57,22 @@ I have used flask to create a Web API
     ```
     docker rm "<container_id>" -f
     ```
-OUTPUT of this perticular project Running on Docker container 
+- OUTPUT of this perticular project Running on Docker container 
 
-I have used flasgger for the UI
+    -I have used flasgger for the UI `pip install flasgger`
 
-![UsingDocker](docker_NoteAuth.png)
+    ![UsingDocker](docker_NoteAuth.png)
     
     
+### Deploying uSing Streamlit 
+
+first of all You have to install streamlit in you environment using below command
+```
+pip install streamlit`
+```
+then run the flasgger_app.py 
+```
+streamlit run flasgger_app.py
+```
+OUTPUT :
+![Streamlit](streamlit_bankNoteAuth.png)
